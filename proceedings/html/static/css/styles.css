@@ -1,0 +1,118 @@
+/*************************************************************/
+/* Modelica title style */
+/*************************************************************/
+.main_title
+{
+    font-family: verdana;
+    font-size: 22px;
+    color: #D60000;
+    position: relative;
+    line-height: 22px;
+}
+
+.sub_title
+{
+    font-family: verdana;
+    font-size: 18px;
+    color: #D60000;
+    position: relative;
+    line-height: 18px;
+}
+
+.submission
+{
+    font-family: verdana;
+    font-size: 13px;
+    color: black;
+    position: relative;
+    line-height: 13px;
+}
+
+
+/*************************************************************/
+/* general */
+/*************************************************************/
+html 
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+
+
+/*************************************************************/
+/* left overs */
+/*************************************************************/
+
+
+/*
+.text 
+{
+    line-height: 160%;
+}
+
+body 
+{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+td 
+{
+    font-family: verdana;
+    font-size: 11px;
+    line-height: 180%;
+}
+
+hr 
+{
+    border: none 0;
+    border-top: 1px dashed #828787;
+    height: 1px;
+} 
+
+.link			
+{
+    COLOR:#000000;
+    TEXT-DECORATION:none}
+A:link          	
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#D60000;
+    font-weight:normal;
+    text-decoration:none}
+A:visited		
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#D60000;
+    font-weight:normal;
+    text-decoration:none}
+A:active		
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#D60000;
+    font-weight:normal;
+    text-decoration:none}
+A:hover			
+{
+    /*COLOR:#ed5d00;*/
+    COLOR:#D60000;
+    font-weight:normal;
+    text-decoration:underline}
+
+
+TEXTAREA 
+{
+
+    background-color: #ffffff;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 1px;
+    MARGIN-TOP: 1px;
+    border: 1px solid #A5ACB2;
+}

@@ -1,0 +1,436 @@
+/*************************************************************/
+/* GENERAL STYLES */
+/*************************************************************/
+.none	
+{
+    display: none;
+}
+
+
+
+/* general table styles 
+*/
+table	
+{
+/*    border-collapse: collapse;*/
+}
+
+td		
+{
+    padding: 0px;
+}
+
+
+
+/*************************************************************/
+/* PAGE STRUCTURE, MASTER PAGE */
+/*************************************************************/
+body		
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+    background: transparent url(../images/body_bg.gif) 0px 284px repeat-x;
+}
+
+.section	
+{
+    background-position: 0px 320px;
+}
+
+
+/* header 
+*/
+#header 			
+{
+    width: 100%;
+    height: 195px;
+}
+
+#headerContent	
+{
+    position: relative;
+    width: 975px;
+    height: 195px;
+    margin: 5px auto;
+/*	background: white url(../images/header_bg_imsd.gif) no-repeat bottom left;*/
+}
+
+div.headerLine{
+    background:#ECECEC;
+    border:1px solid #C4C4C4;
+    border-bottom-width:0;
+    height:8px;
+    overflow:hidden;
+    font-size:1px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+}
+
+#header a		
+{
+    color: #6e6e6e;
+}
+
+/* main image
+ */
+#mainImage		
+{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+#mainImage p	
+{
+    margin: 0px;
+}
+
+
+/* uni_logo 
+ */
+#uni_logo		
+{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+#uni_logo p	
+{
+    margin: 0px;
+}
+
+
+
+/* IMSD-logo 
+ */
+#imsd_logo		
+{
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+
+#imsd_logo p	
+{
+    margin: 0px;
+}
+
+
+/* heading
+ */
+#heading					
+{
+    position: absolute;
+    top: 66px;
+    left: 130px;
+    display: none;
+}
+
+#heading h2				
+{
+    font-weight: bold;
+    margin: 0px;
+    font-size: 120%;
+    color: #3c3c3c;
+    padding: 0px 0px 2px 16px;
+}
+
+
+/* site info (footer) 
+*/
+#siteInfo				
+{
+    width: 975px;
+    border-top: 1px solid #e1e1e1;
+    font-size: 90%;
+    background-color: White;
+    color: #6e6e6e;
+    padding-bottom: 20px;
+    float: left;
+}
+
+#siteInfo p				
+{
+    margin: 0px;
+    padding-top: 8px;
+}
+
+#siteInfo #infoLinks	
+{
+    float: left;
+    padding-left: 1px;
+}
+
+#siteInfo #infoLinks a 
+{
+    color: #6e6e6e;
+}
+
+#siteInfo #copyright	
+{
+    float: right;
+    padding-right: 1px;
+}
+
+#siteInfo #copyright a 
+{
+    color: #6e6e6e;
+}
+
+
+/* site actions menu 
+ */
+#siteActions	
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+
+/* section layout (colors defined in colors.css) 
+ */
+#section	
+{
+    width: 100%;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+
+/*************************************************************/
+/*  PAGE LAYOUTS */
+/*************************************************************/
+#frontpage,	
+#sectionFrontpage,
+#frontpageFaculty,
+#frontpageMinisite,
+#page, #pageWide	
+{
+    width: 975px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#frontpage			
+{
+    position: relative;
+}
+
+
+#pageContent				
+{
+    float: left;
+    width: auto;
+    background:white;
+/*    background: white url(../images/page_bg_imsd.gif) top right repeat-y;*/
+}
+
+.feedback #pageContent	
+{
+    background: white url(../images/page_feedback_bg.gif) top right repeat-y !important;
+}
+
+
+/* navigation bar (left column) 
+ */
+#navibar							
+{
+    width: 218px;
+    float: left;
+    color: #3c3c3c;
+}
+
+.feedback #navibar			
+{
+    border-top: 15px solid white;
+}
+
+#frontpageFaculty #navibar,
+#frontpageMinisite #navibar	
+{
+    padding-top: 15px;
+}
+
+
+
+/* navigation bar content box 
+ */
+#sidebar .box,
+#navibar .box
+{
+    background: #eeeeee url(../images/contentbox_bottom.gif) bottom left no-repeat;
+    margin: 0px 18px 15px 20px;
+    line-height: 160%;
+}
+
+#sidebar .boxContent	,
+#navibar .boxContent	
+{
+    background: url(../images/contentbox_top.gif) no-repeat;
+    padding: 10px;
+}
+
+#sidebar .box h3,
+#navibar .box h3		
+{
+    margin-bottom: 5px;
+}
+
+#sidebar .box p,
+#navibar .box p		
+{
+    margin: 0px 0px 8px 0px;
+}
+
+#sidebar .box hr,
+#navibar .box hr		
+{
+    background-color: #d4d4d4;
+    color: #d4d4d4;
+    height: 1px;
+    border: 0px;
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+}
+
+/*#sidebar .box a,
+#navibar .box a		
+{
+    background: url(../images/arrow_link.gif) 0px 4px no-repeat;
+    padding: 0px 0px 0px 9px;
+}*/
+
+
+
+/* main content areas 
+ */
+#page #mainContent				
+{
+/*    width: 539px;*/
+/*    float: left;*/
+    margin-left:218px;
+    margin-right:218px;
+    padding-bottom: 10px;
+}
+
+
+/* navigation path 
+*/
+#naviPath				
+{
+    width: 520px;
+    padding: 13px 0px 25px 0px;
+    font-size: 90%;
+}
+
+
+/* text content area 
+*/
+#textContent						
+{
+    text-align:justify;
+/*    width: 520px;*/
+    line-height: 180%;
+/*    clear: both;*/
+    padding-bottom: 20px;
+/*    float: left;*/
+}
+
+#textContent ul	
+{
+    margin: 0px 0px 20px 2px;
+    padding: 0px;
+    list-style: none;
+}
+
+#textContent ul li
+{
+    background: url(../images/arrow_link.gif) 0px 8px no-repeat;
+    padding-left: 9px;
+}
+
+
+#textContent p.date		
+{
+    font-size: 90%;
+    color: #6e6e6e;
+    margin-top: -10px;
+}
+
+#textContent p.ingress	
+{
+    color: #6e6e6e;
+    font-style: italic;
+}
+
+
+/*************************************************************/
+/* SIDEBAR (right column)*/
+/*************************************************************/
+#sidebar	
+{
+    width: 218px;
+    float: right;
+    color: #3c3c3c;
+}
+
+#sidebar #logos	
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sidebar #logos h3 
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*************************************************************/
+/* do we need this? */
+/*************************************************************/
+/* section links 
+ */
+#links									
+{
+    width: 218px;
+    background: #c5c5c5 url(../images/sectionlinks_bg.gif) no-repeat;
+}
+
+#links h4								
+{
+    padding: 0px 0px 15px 20px;
+    margin: 0px;
+}
+
+#links ul								
+{
+    margin: 0px;
+    padding: 0px 10px 10px 20px;
+    list-style: none;
+}
+
+#links li								
+{
+    background: url(../images/arrow_link.gif) 0px 4px no-repeat;
+    padding: 0px 0px 12px 9px;
+}
+
+
+
+
+/* form styles */
+form	
+{
+    margin: 0px;
+    display: inline;
+}

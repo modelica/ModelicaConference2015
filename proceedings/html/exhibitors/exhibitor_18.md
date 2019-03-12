@@ -1,0 +1,5 @@
+<p><a style="border-bottom: 0px solid #ccc;" href="http://www.plm.automation.siemens.com/en_us/products/lms/imagine-lab/amesim/index.shtml
+"><img src="exhibitor_18.svg" style="height:70px;width:auto;" /></a></p>
+<p>
+LMS Imagine.Lab Amesim from Siemens PLM Software is the core software of the LMS Imagine.Lab platform.  LMS Imagine.Lab Amesim is an open platform. You can access pre-existing libraries of comprehensive, validated, domain-specific models and create custom libraries using a full-featured Modelica development environment. You can also take advantage of LMS Amesim’s support for the FMI specification (full FMI 1.0 support and FMI 2.0 co-sim master support).  Come visit us at the Siemens booth where you can learn more about the Modelica and FMI capabilities of LMS Imagine.Lab Amesim!
+</p>

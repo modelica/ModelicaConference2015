@@ -1,0 +1,136 @@
+body	
+{
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    color: Black;
+}
+
+input, select, textarea	
+{
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    color: Black;
+}
+
+h1
+{
+    font-size: 200%; 
+    margin: 0cm 0cm 0.7cm 0cm; 
+    font-weight: normal;
+}
+
+h2
+{
+    font-size: 160%; 
+    font-weight: normal; 
+    margin: 0cm 0cm 0.5cm 0cm;
+}
+
+h3	
+{
+    font-size: 100%; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    margin: 0cm 0cm 0.5cm 0cm;
+}
+
+h4	
+{
+    font-size: 100%; 
+    margin: 0cm 0cm 0.2cm 0cm; 
+    font-weight: bold;
+}
+
+p	
+{
+    margin: 0cm 0cm 0.6cm 0cm;
+} 
+
+a:link, a:visited, a:active
+{
+    text-decoration: none; 
+    color: #3c3c3c;
+}
+
+a:hover	
+{
+    text-decoration: underline;
+}
+
+a img	
+{
+    border: 0px;
+}
+
+.ingress	
+{
+    font-style: italic;
+}
+
+.floatLeft	
+{
+    float: left;
+}
+
+.floatRight	
+{
+    float: right;
+}
+
+img.floatLeft	
+{
+    margin: 0cm 0.6cm 0.3cm 0cm;
+}
+
+img.floatRight	
+{
+    margin: 0cm 0cm 0.3cm 0.6cm;
+}
+
+
+
+/*************************************************************/
+/* hidden elements */
+/*************************************************************/
+#mainNavi,
+#navibar,
+#sidebar,
+#mainImage,
+#naviPath,
+.contentFooter a,
+.contentFooter span,
+.paging .links,
+a.showAll,
+.none,
+#imsd_logo,
+#siteInfo #infoLinks	
+{
+    display: none;
+}
+
+
+/*************************************************************/
+/* printing layout */
+/*************************************************************/
+#logo			
+{
+    margin: 0cm 0cm 0.5cm 0cm;
+}
+
+#heading		
+{
+    margin: 0cm 0cm 1.5cm 0cm;
+}
+
+#mainContent, #news, #events	
+{
+    margin-bottom: 1cm;
+}
+
+#mainContent ul	
+{
+    margin-bottom: 0.6cm;
+}
+
+.date, .contentFooter	
+{
+    font-size: 7pt;
+}

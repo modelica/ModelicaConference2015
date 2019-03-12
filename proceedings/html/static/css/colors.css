@@ -1,0 +1,74 @@
+/* default color 
+ */
+div.default	
+{
+/*    background-image: url(../images/section_bg_default.gif);*/
+}
+
+
+.default h1,
+.default h2,
+.default #news,
+.default #page #news p,
+.default #events,
+.default #naviPath span,
+.default #searchResults strong a,
+.default #subNavi a.selected,
+.default #textContent a	
+{
+    color: #ad1d2c;
+}
+
+
+.default #mainNavi				
+{
+    /*background-image: url(../images/mainnavi_bg_default.gif);*/
+}
+
+.default #mainNavi ul,  
+.default #mainNavi a				
+{
+/*    background-image: url(../images/mainnavi_break_default.gif);*/
+}
+
+.default #mainNavi a:hover,
+.default #mainNavi a.selected	
+{
+    /*background-image: url(../images/mainnavi_on_default.gif);*/
+}
+
+.default #subNavi a.selected	
+{
+/*    background-image: url(../images/subnavi_selected_default.gif);*/
+}
+
+
+
+/* minisite - t�ss� kustomoitu imsd-ilmeeseen 
+ */
+div.minisite	
+{
+    background-image: url(../images/section_bg_modelica.png);
+}
+
+
+.minisite h1,
+.minisite h2,
+.minisite #news, 
+.minisite #page #news p,
+.minisite #events,
+.minisite #naviPath span,
+.minisite #searchResults strong a,
+.minisite #subNavi a.selected,
+.minisite #textContent a 
+{
+    color: #D60000;
+}
+
+
+
+.minisite #subNavi a.selected	
+{
+    background-image: url(../images/subnavi_selected_modelica.png);
+}
+

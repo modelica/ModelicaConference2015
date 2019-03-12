@@ -1,0 +1,181 @@
+/*************************************************************/
+/* main navigation */
+/*************************************************************/
+#mainNavi				
+{
+    font-size: 110%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 975px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#mainNavi ul			
+{
+    margin: 0px;
+    padding: 0px 0px 0px 1px;
+    background-repeat: no-repeat;
+    list-style: none;
+    width: 975px;
+    height: 60px;
+}
+
+#mainNavi li			
+{
+    float: left;
+}
+
+#mainNavi a				
+{
+    float: left;
+    display: block;
+    padding: 10px 20px 12px 20px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: White;
+}
+
+#mainNavi a:hover,
+#mainNavi a.selected	
+{
+    background-position: top right;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+
+
+/*************************************************************/
+/* sub navigation */
+/*************************************************************/
+#subNavi	
+{
+    width: 218px;
+    overflow: hidden;
+}
+
+#subNavi ul			
+{
+    margin: 0px 18px 0px 20px;
+    list-style: none;
+    padding: 0px 0px 35px 0px;
+}
+
+#subNavi ul ul		
+{
+    margin: 0px 0px 0px 0px;
+    background: url(../images/dotline_grey.gif) bottom left repeat-x;
+    padding: 0px 0px 5px 0px;
+}
+
+#subNavi ul ul ul	
+{
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#subNavi li				
+{
+    width: 180px;
+    display: inline;
+}
+
+#subNavi ul a			
+{
+    display: block;
+    padding: 10px 2px;
+    background: url(../images/dotline_grey.gif) bottom left repeat-x;
+    color: #000000;
+}
+
+#subNavi ul ul a		
+{
+    background: none;
+    padding: 6px 2px 6px 21px;
+}
+
+#subNavi ul ul ul a	
+{
+    padding: 6px 2px 6px 45px;
+}
+
+
+#subNavi ul a.selected		
+{
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+    padding-left: 18px;
+}
+
+#subNavi ul ul a.selected	
+{
+    background-position: 22px 10px;
+    padding-left: 31px;
+}
+
+#subNavi ul ul ul a.selected	
+{
+    background-position: 44px 10px;
+    padding-left: 54px;
+}
+
+
+
+
+/*************************************************************/
+/* left overs */
+/*************************************************************/
+
+/* alaspudotusvalikon tyyli - otetaan mallia perusmenusta - Matti J�nis 2008 */
+/*
+.menu_normaali 
+{
+    position: absolute;
+    padding-top: 9px;
+    background: url(images/menu_tausta.gif) repeat-x;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.menu_over 
+{
+    position: absolute;
+    padding-top: 9px;
+    background: url(images/menu_tausta_over.gif) repeat-x;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.menu_valiviiva 
+{
+    position: absolute;
+    background: url(images/menu_valiviiva.gif) top left repeat-x;
+}
+*/
+
+
+/* ??????????????????? */
+/* omat kustomoinnit */
+/*
+#subNavi ul a.auki		
+{
+    background-repeat: no-repeat;
+    background-position: 3px 14px;
+    padding-left: 12px;
+}
+
+#subNavi ul ul a.auki	
+{
+    background-position: 22px 10px;
+    padding-left: 31px;
+}
+
+#subNavi ul ul ul a.auki 
+{
+    background-position: 44px 10px;
+    padding-left: 54px;
+}
+*/

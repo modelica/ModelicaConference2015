@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
+        {% if site.logo %}
+          <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+        {% endif %}
+        <p>
+        September 21-23, 2015 in Palais des Congrès de Versailles, France
+        <br />
+        <a href="{{ "/proceedings/html/index.html" | absolute_url }}">[Proceedings]</a>
+        <a href="{{ "/proceedings/html/sessions/index.html" | absolute_url }}">[Sessions]</a>
+        <a href="{{ "/proceedings/html/authors/index.html" | absolute_url }}">[Authors]</a>
+        <a href="{{ "/proceedings/html/schedule.html" | absolute_url }}">[Schedule]</a>
+        <a href="{{ "/proceedings/html/material.html" | absolute_url }}">[Further material]</a>
+        </p>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <h3>Organized by</h3>
+<a style="border-bottom: 0px solid #ccc;" href="http://www.3ds.com/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/3ds_logo.svg" alt="Dassault Syst&#232;mes" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="https://liu.se/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/liu_primary_black.svg" alt="Link&ouml;ping University" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.modelica.org"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/ModelicaLogo.svg" alt="Modelica" /></a>
+        <h3>Sponsored by</h3>
+<a style="border-bottom: 0px solid #ccc;" href="http://www.claytex.com/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/claytexlogo.svg" alt="Claytex Services Limited" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.maplesoft.com/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/Maplesoft_logo.svg" alt="Maplesoft Europe" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.modelon.com"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/modelonlogo.svg" alt="Modelon AB" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.3ds.com/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/3ds_logo.svg" alt="Dassault Syst&#232;mes" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.altair.com/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/Altair_logo.svg" alt="Altair" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a style="border-bottom: 0px solid #ccc;" href="http://www.xrg-simulation.de/"><img style="padding:5px;height:24px;width:auto;" src="{{ "/" | absolute_url }}/proceedings/html/static/images/xrglogo.svg" alt="XRG Simulation GmbH" /></a>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>

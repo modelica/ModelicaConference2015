@@ -1,0 +1,5 @@
+<p><a style="border-bottom: 0px solid #ccc;" href="http://www.ricardo.com/
+"><img src="exhibitor_20.svg" style="height:70px;width:auto;" /></a></p>
+<p>
+IGNITE, Ricardo Software’s physics-based simulation package focused on complete vehicle performance and fuel economy simulation. With an extensive collection of Modelica-based commercial libraries, IGNITE offers a complete range of powertrain configurations and options to be considered and integrated. Providing a comprehensive set of vehicle system “building blocks” allows users to quickly and accurately model complete conventional, hybrid-electric, full electric and novel vehicle architectures. Our faster than real-time simulation and native design/optimization tools enable users to make key decisions in the most cost-effective and robust manner.  Visit us at the Ricardo Software booth to learn more about IGNITE and our Modelica-based library offerings!
+</p>
