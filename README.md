@@ -8,7 +8,7 @@ More information is contained in the conference [flyer/poster](files/Modelica.Co
 
 The conference program, book of abstracts and other information are available here:
 
-* Proceedings [(intro)](proceedings/MODELICA2015_proceedings.html) [(LiU E-Press)](http://www.ep.liu.se/ecp/contents.asp?issue=118)
+* Proceedings [(intro)](proceedings/MODELICA2015_proceedings.html) [(LiU E-Press)](http://www.ep.liu.se/ecp/contents.asp?issue=118) [(zip)](https://github.com/modelica/ModelicaConference2015/releases/download/USB/MODELICA2015_proceedings.zip)
 * [Conference Program](proceedings/html/ProgramViewing.pdf)
 * [Conference Program for printing](proceedings/html/Program.pdf)
 * [Book of Abstracts](proceedings/html/BookOfAbstractsOfThe11thInternationalModelicaConference.pdf)
